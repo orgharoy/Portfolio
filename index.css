@@ -1,0 +1,606 @@
+.navbar{
+    background: linear-gradient(90deg, #89E5FF, #ff89e5);
+}
+
+.nav-item a{
+    color: white;
+
+    transform: 100ms ease-in-out;
+}
+
+.navbar-toggler{
+    color: white;
+}
+
+.navbar-toggler:hover{
+    color: white;
+}
+
+
+.nav-item a:hover{
+    text-decoration: underline;
+    color: white;
+}
+
+.profile-image{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.web-dev{
+    font-size: 1.6rem;
+}
+
+.arrow{
+    width: 4rem;
+}
+
+.btn{
+    background-color: #7e67ff;
+    color: white;
+    border-radius: 25px;
+}
+
+.btn:hover{
+    background-color: #aa9cfc;
+    color: white;
+    border-radius: 25px;
+}
+
+h1{
+    color: #7e67ff;
+    font-weight: bold;
+}
+
+
+.scroll-down{
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: -2rem;
+    flex-direction: column;
+    align-items: center;
+}
+
+.mouse{
+    width: 1.5rem;
+    height: 3rem;
+    border: 2px solid #7e67ff;
+    border-radius: 2rem;
+    margin-bottom: 0.5rem;
+}
+
+.mouse span{
+    width: 0.7rem;
+    height: 0.7rem;
+    border-radius: 50%;
+    background-color: #7e67ff;
+    display: block;
+    margin: auto;
+
+    animation: move-wheel 1s linear infinite;
+}
+
+.scroll-arrow span{
+    display: block;
+    width: 0.8rem;
+    height: 0.8rem;
+    border: 2px solid transparent;
+    border-right-color: #7e67ff;
+    border-bottom-color:#7e67ff;
+    transform: rotate(45deg);
+
+    animation: scroll-arrow-down 0.5s alternate infinite;
+}
+
+@keyframes move-wheel{
+    0%{
+        opacity: 0;
+        transform: translateY(-1rem);
+    }
+    100%{
+        opacity: 1;
+        transform: translateY(1rem);
+    }
+}
+
+@keyframes scroll-arrow-down{
+    0%{
+        opacity: 0;
+    }
+    25%{
+        opacity: 0.25;
+    }
+    50%{
+        opacity: 0.50;
+    }
+    75%{
+        opacity: 0.75;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+
+
+h2{
+    color:#7e67ff;
+    font-weight: bold;
+}
+
+.icon{
+    font-size: 1.5rem;
+    align-items: center;
+    color: #9a97a8;
+    margin: 0 2rem 0 0;
+}
+
+.icon:hover{
+    color: #aa9cfc;
+}
+
+
+.tech{
+    color:#9a97a8;
+
+    transition: 150ms ease-in-out;
+}
+
+.tech:hover{
+    color: #aa9cfc;
+}
+
+.toolkit-desc{
+    font-family: 'Caveat', cursive;
+    font-size: large;
+}
+
+.handwriting{
+    font-family: 'Caveat', cursive;
+}
+
+#project-img{
+    transition: 250ms ease-in-out;
+}
+
+.projects:hover #project-img{
+        transform: scale(105%)
+}
+
+.project-img{
+    width: 60%;
+}
+
+.project-description{
+    width: 40%;
+    background-color: #e8e4fd;
+    margin-left: -3rem;
+    z-index: 1;
+}
+
+.project-description-left{
+    width: 40%;
+    background-color: #e8e4fd;
+    margin-right: -3rem;
+    z-index: 1;
+}
+
+.project-lang{
+    font-size: 0.9rem;
+    color: #7e67ff;
+}
+
+
+.contact-icon{
+    color: #9a97a8;
+    font-size: 1.2rem;
+}
+
+.footer{
+    background: linear-gradient(90deg, #89E5FF, #ff89e5);
+    color: white;
+    position: relative;
+    height: 3rem;
+}
+
+.footer-text{
+    font-size: 1.2rem;
+}
+
+.form-control{
+    background-color: transparent;
+    border: 2px solid #aa9cfc;
+}
+
+.form-control:focus {
+    border-color: #7e67ff;
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px #aa9cfc;
+    background-color: transparent;
+}
+
+.yellow-box{
+    background-color: #faeeaa;
+    height: 35em;
+    width: 25em;
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index:-1;
+    border-radius: 0 0 0 10%;
+}
+
+.yellow-circle{
+    background-color: #faeeaa;
+    height: 18em;
+    width: 18em;
+    position: absolute;
+    top: 36rem;
+    left: -9em;
+    border-radius: 50%;
+    z-index:-1;
+}
+
+.yellow-circle-two{
+    position: absolute;
+    background-color: #faeeaa;
+    height: 40rem;
+    width: 40rem;
+    bottom: 22rem;
+    right: 0rem;
+    border-radius: 50%;
+    z-index: -1;
+}
+
+.diamond{
+    position: absolute;
+    background-color:  #ffec82;
+    height: 15rem;
+    width: 15rem;
+    bottom: 12rem;
+    left: 28rem;
+    transform: rotate(45deg);
+    border-radius: 1rem;
+    z-index: -2;
+    
+}
+
+.diamond-2{
+    position: absolute;
+    background-color: #faeeaa;
+    height: 15rem;
+    width: 15rem;
+    bottom: 4rem;
+    left: 23rem;
+    transform: rotate(45deg);
+    border-radius: 1rem;
+    z-index: -1;
+    
+}
+
+.profile-image-circle{
+    background-color: #ffec82;
+    height: 30em;
+    width: 30em;
+    bottom: -10rem;
+    left: -2rem;
+    position: absolute;
+    border-radius: 50%;
+    z-index: -1;
+}
+
+.orgha-bangla{
+    position: absolute;
+    bottom: 2rem;
+    right: 0;
+    font-family: 'Noto Sans Bengali', sans-serif;
+    color: #e8e8ff;
+    z-index: -1;
+}
+
+.orgha-bdtext{
+    font-size: 23rem;
+}
+
+@media only screen and (max-width: 600px) {
+    .yellow-box{
+        height: 20em;
+        width: 15em;
+    }
+    .yellow-circle{
+        height: 18em;
+        width: 18em;
+        position: absolute;
+        top: 47rem;
+        left: -9rem;
+        border-radius: 50%;
+        z-index:-1;
+    }
+
+    .yellow-circle-two{
+        position: absolute;
+        height: 23rem;
+        width: 23rem;
+        bottom: 27rem;
+        right: 0rem;
+        border-radius: 50%;
+        z-index: -1;
+    }
+
+    .diamond{
+        height: 12rem;
+        width: 12rem;
+        bottom: 6rem;
+        left: 3rem;   
+    }
+    
+    .diamond-2{
+        height: 12rem;
+        width: 12rem;
+        bottom: -1rem;
+        left: 0rem;        
+    }
+
+    .profile-image-circle{
+        background-color: #ffec82;
+        height: 22em;
+        width: 22em;
+        bottom: -14rem;
+        left: -2rem;
+        position: absolute;
+        border-radius: 50%;
+        z-index: -1;
+    }
+
+    .profile-image{
+        display:block;
+    }
+
+    .scroll-down{
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+        bottom: -2.5rem;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .social-icons{
+        margin: 0 2.5rem;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .icon{
+        margin: 0 0 0 0;
+    }
+
+    .project-img{
+        width: 100%;
+    }
+
+    .project-description{
+        width: 80%;
+        margin-left: 0;
+        margin-top: -3rem;
+    }
+
+    
+    .project-description-left{
+        width: 80%;
+        margin-right: 0;
+        margin-top: -3rem;
+        z-index: 1;
+    }
+
+    .arrow{
+        display: none;
+    }
+
+    .orgha-bangla{
+        position: absolute;
+        bottom: 3rem;
+        right: 0;
+        font-family: 'Noto Sans Bengali', sans-serif;
+        color: #e8e8ff;
+        z-index: -1;
+    }
+    
+    .orgha-bdtext{
+        font-size: 11rem;
+    }
+}
+
+@media only screen and (min-width: 601px) and (max-width: 990px) {
+    .yellow-box{
+        height: 18em;
+        width: 35em;
+    }
+
+    .diamond{
+        height: 12rem;
+        width: 12rem;
+        bottom: 20rem;
+        left: 18rem;   
+    }
+    
+    .diamond-2{
+        height: 12rem;
+        width: 12rem;
+        bottom: 13rem;
+        left: 15rem;        
+    }
+
+    .profile-image-circle{
+        background-color: #ffec82;
+        height: 22em;
+        width: 22em;
+        bottom: -8rem;
+        left: -4rem;
+        position: absolute;
+        border-radius: 50%;
+        z-index: -1;
+    }
+
+    .project-img{
+        width: 100%;
+    }
+
+
+
+    .project-description{
+        width: 80%;
+        margin-left: 0;
+        margin-top: -3rem;
+    }
+    
+    .project-description-left{
+        width: 80%;
+        margin-right: 0;
+        margin-top: -3rem;
+        z-index: 1;
+    }
+
+    .arrow{
+        display: none;
+    }
+    .orgha-bdtext{
+        font-size: 17rem;
+    }    
+
+}
+
+@media only screen and (min-width: 1400px) and (max-width: 1920px) {
+    .yellow-box{
+        height: 43em;
+        width: 26rem;
+        position: absolute;
+        top: 0;
+        right: 0;
+        z-index:-1;
+        border-radius: 0 0 0 10%;
+    }
+
+    .yellow-circle{
+        height: 25em;
+        width: 25em;
+        position: absolute;
+        top: 40rem;
+        left: -6.5rem;
+        border-radius: 50%;
+        z-index:-1;
+    }
+
+    .diamond{
+        bottom: 12rem;
+        left: 48rem;       
+    }
+    
+    .diamond-2{
+        bottom: 4rem;
+        left: 43rem;        
+    }
+    
+    .orgha-bdtext{
+        font-size: 20rem;
+    } 
+}
+
+@media only screen and (min-width: 1920px) and (max-width: 2079px) {
+    .yellow-box{
+        height: 43em;
+        width: 35em;
+        position: absolute;
+        top: 0;
+        right: 0;
+        z-index:-1;
+        border-radius: 0 0 0 10%;
+    }
+
+    .yellow-circle{
+        height: 25em;
+        width: 25em;
+        position: absolute;
+        top: 40rem;
+        left: -6.5rem;
+        border-radius: 50%;
+        z-index:-1;
+    }
+
+    .diamond{
+        bottom: 12rem;
+        left: 48rem;       
+    }
+    
+    .diamond-2{
+        bottom: 4rem;
+        left: 43rem;        
+    }
+
+    .orgha-bangla{
+        position: absolute;
+        bottom: 2rem;
+        right: 0rem;
+        font-family: 'Noto Sans Bengali', sans-serif;
+        color: #e8e8ff;
+        z-index: -1;
+    }
+    .orgha-bdtext{
+        font-size: 20rem;
+    }
+}
+
+@media only screen and (min-width: 2080px){
+    .yellow-box{
+        height: 43em;
+        width: 50em;
+        position: absolute;
+        top: 0;
+        right: 0;
+        z-index:-1;
+        border-radius: 0 0 0 10%;
+    }
+    .yellow-circle{
+        height: 25em;
+        width: 25em;
+        position: absolute;
+        top: 40rem;
+        left: -6.5rem;
+        border-radius: 50%;
+        z-index:-1;
+    }
+
+    .yellow-circle-two{
+        position: absolute;
+        height: 45rem;
+        width: 45rem;
+        bottom: 22rem;
+        right: 18rem;
+        border-radius: 50%;
+        z-index: -1;
+    }  
+
+    .diamond{
+        bottom: 12rem;
+        left: 65rem;       
+    }
+    
+    .diamond-2{
+        bottom: 4rem;
+        left: 60rem;        
+    }
+
+    .orgha-bangla{
+        position: absolute;
+        bottom: 2rem;
+        right: 12rem;
+        font-family: 'Noto Sans Bengali', sans-serif;
+        color: #e8e8ff;
+        z-index: -1;
+    }
+    
+    .orgha-bdtext{
+        font-size: 20rem;
+    }
+}
