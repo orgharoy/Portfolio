@@ -16,6 +16,9 @@
     color: white;
 }
 
+.main-section{
+    min-height: 95vh;
+}
 
 .nav-item a:hover{
     text-decoration: underline;
@@ -59,7 +62,7 @@ h1{
     position: absolute;
     left: 50%;
     transform: translateX(-50%);
-    bottom: -2rem;
+    bottom: 3rem;
     flex-direction: column;
     align-items: center;
 }
@@ -295,7 +298,7 @@ h2{
     bottom: 2rem;
     right: 0;
     font-family: 'Noto Sans Bengali', sans-serif;
-    color: #e8e8ff;
+    color: #ececfc;
     z-index: -1;
 }
 
@@ -361,7 +364,7 @@ h2{
         position: absolute;
         left: 50%;
         transform: translateX(-50%);
-        bottom: -2.5rem;
+        bottom: 6rem;
         flex-direction: column;
         align-items: center;
     }
@@ -411,6 +414,27 @@ h2{
         font-size: 11rem;
     }
 }
+
+@media only screen and (max-width: 389px){
+    .scroll-down{
+        display: none;
+    }
+    
+    .mouse{
+        width: 1.5rem;
+        height: 3rem;
+        border: transparent;
+        border-radius: 0rem;
+        margin-bottom: 0.5rem;
+    }
+
+    .mouse span{
+        display: none;
+    }
+    
+    .scroll-arrow span{
+        display: none;
+    }
 
 @media only screen and (min-width: 601px) and (max-width: 990px) {
     .yellow-box{
