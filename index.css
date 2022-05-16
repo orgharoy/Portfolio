@@ -18,6 +18,7 @@
 
 .main-section{
     min-height: 95vh;
+    width: auto;
 }
 
 .nav-item a:hover{
