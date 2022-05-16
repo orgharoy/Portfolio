@@ -436,6 +436,10 @@ h2{
         display: none;
     }
 
+    .projects-section{
+        margin-top: 2.5rem;
+    }
+
 @media only screen and (min-width: 601px) and (max-width: 990px) {
     .yellow-box{
         height: 18em;
@@ -576,7 +580,7 @@ h2{
 }
 
 @media only screen and (min-width: 2080px){
-    
+
     .yellow-box{
         height: 43em;
         width: 50em;
